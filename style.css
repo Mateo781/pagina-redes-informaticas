@@ -1,0 +1,14 @@
+.titulo{
+    display: inline-block;
+    margin-left: 30px;
+    color: rgb(135, 209, 17);
+}
+header{
+    background-color: black;
+}
+div{
+    margin-left: 13px;
+}
+svg{
+    color: white;
+}
