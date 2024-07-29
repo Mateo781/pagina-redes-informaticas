@@ -4,11 +4,20 @@
     color: rgb(135, 209, 17);
 }
 header{
-    background-color: black;
+    background: linear-gradient(to right, black, rgb(152, 148, 148));
 }
 div{
     margin-left: 13px;
 }
 svg{
     color: white;
+    margin-left: 10px;
+}
+.opciones{
+    display: flex;
+}
+p{
+    color: rgb(135, 209, 17);
+    display: inline-block;
+    margin-left: 13px;
 }
