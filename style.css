@@ -21,12 +21,12 @@ svg{
 p{
     color: rgb(135, 209, 17);
     display: inline-block;
-    margin-left: 13px;
+    margin-left: 3px;
     font: 100% sans-serif;
 }
 .crear-cuenta{
     position: relative;
-    right: -1000px;
+    right: -1300px;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 13px;
     height: 40px;
@@ -37,7 +37,7 @@ p{
 }
 .iniciar-sesion{
     position: relative;
-    right: -1000px;
+    right: -1300px;
     border: 3px solid rgb(135, 209, 17);
     border-radius: 13px;
     height: 40px;
@@ -61,4 +61,8 @@ h5{
 .bienvenida{
     color: rgb(146, 145, 145);
     font: 150% sans-serif;
+}
+.redes{
+    background-color: rgb(112, 112, 112);
+    display: flex;
 }
