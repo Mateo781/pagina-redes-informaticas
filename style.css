@@ -1,3 +1,11 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.logo{
+    margin-top: 13px;
+    margin-left: 13px;
+}
 .titulo{
     display: inline-block;
     margin-left: 30px;
@@ -5,9 +13,6 @@
 }
 header{
     background: linear-gradient(to right, black, rgb(99, 96, 96));
-}
-div{
-    margin-left: 13px;
 }
 svg{
     color: white;
@@ -25,8 +30,6 @@ p{
     font: 100% sans-serif;
 }
 .crear-cuenta{
-    position: relative;
-    right: -1000px;
     border: 3px solid rgb(0, 0, 0);
     border-radius: 13px;
     height: 40px;
@@ -36,8 +39,6 @@ p{
     background-color: rgb(80, 80, 80);
 }
 .iniciar-sesion{
-    position: relative;
-    right: -1000px;
     border: 3px solid rgb(135, 209, 17);
     border-radius: 13px;
     height: 40px;
@@ -45,6 +46,8 @@ p{
     margin-top: 13px;
     display: flex;
     background-color: rgb(80, 80, 80);
+    margin-right: 13px;
+    margin-left: 13px;
 }
 h5{
     color: white;
@@ -53,10 +56,11 @@ h5{
 }
 .sesiones{
     display: flex;
+    align-items: center;
+    justify-content: space-between;
 }
 .imagen_main{
-    width: 90%;
-    height: 180px;
+    width: 80%;
 }
 .bienvenida{
     color: rgb(146, 145, 145);
@@ -65,6 +69,9 @@ h5{
 .redes{
     background-color: rgb(112, 112, 112);
     display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 35px;
 }
 .tik_tok{
     margin-left: 330px;
@@ -73,28 +80,46 @@ h5{
     margin-left: 330px;
 }
 .imagen_busqueda{
-    margin-left: 530px;
-    margin-top: 13px;
+    margin-left: 0px;
+    margin-top: 0px;
 }
 .noticias{
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
     display: grid;
     grid-template-columns: 20% 20% 20%;
     grid-template-rows: 150px;
     grid-gap: 10%;
 }
-.noticia1{
-    width: 80px;
-    height: 80px;
+.Noticia1{
+    width: 300px;
+    height: 300px;
 }
-.noticia2{
-    width: 80px;
-    height: 80px;
+.Noticia2{
+    width: 300px;
+    height: 300px;
 }
-.noticia3{
-    width: 80px;
-    height: 80px;
+.Noticia3{
+    width: 300px;
+    height: 300px;
 }
 h3{
     color: rgb(103, 103, 103);
     font: 100% sans-serif;
+}
+.logeo{
+    display: flex;
+}
+.rutina{
+    margin-left: 13px;
+}
+.calendario{
+    margin-left: 13px;
+}
+.meta{
+    margin-left: 13px;
+}
+.ayuda{
+    margin-left: 13px;
 }
